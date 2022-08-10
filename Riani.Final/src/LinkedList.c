@@ -627,6 +627,7 @@ LinkedList* ll_map(LinkedList* this, void (*fn)(void* element))
 	return this;
 }
 
+/*
 int ll_count(LinkedList* this, int (fn)(void element))
 {
 	int len;
@@ -647,3 +648,4 @@ int ll_count(LinkedList* this, int (fn)(void element))
 
 	return acumulador;
 }
+*/

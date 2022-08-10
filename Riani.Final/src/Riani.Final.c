@@ -13,6 +13,7 @@
 #include "LinkedList.h"
 #include "controller.h"
 #include "ePokemon.h"
+#include "utn_inputs.h"
 
 int main(void) {
 	setbuf(stdout,NULL);
@@ -20,10 +21,10 @@ int main(void) {
 	LinkedList* listaPokemon;
 	int opcion;
 	int flagCargado;
-	int flagGuardado;
+//	int flagGuardado;
 
 	flagCargado=0;
-	flagGuardado=0;
+//	flagGuardado=0;
 
 	listaPokemon=ll_newLinkedList();
 

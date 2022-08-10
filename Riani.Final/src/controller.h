@@ -16,5 +16,6 @@ int riani_controller_filtrarPorFuego(LinkedList* pArrayListPokemon);
 int riani_controller_filtrarPorTamanioYVeneno(LinkedList* pArrayListPokemon);
 int riani_controller_saveAsText(char* path , LinkedList* pArrayListPokemon);
 int riani_controller_modificarValorAtaque(LinkedList* pArrayListPokemon);
+int riani_controller_asignarNuevoValorAtaque(LinkedList* pArrayListPokemon);
 
 #endif /* CONTROLLER_H_ */

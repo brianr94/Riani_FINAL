@@ -9,6 +9,8 @@
 #define PARSER_H_
 
 #include "LinkedList.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 int parser_pokemonFromText(FILE* pFile , LinkedList* pArrayListPokemon);
 

@@ -10,6 +10,7 @@
 
 #define TAMSTR 51
 
+#include "LinkedList.h"
 typedef struct{
 
 	int numero;
