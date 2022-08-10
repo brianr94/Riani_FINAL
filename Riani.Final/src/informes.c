@@ -97,6 +97,6 @@ void ePokemon_mapeoAtaqueCargado(void* pokemon)
 
 	}
 
-		ePokemon_setValorAtaque(pPokemon, nuevoValorAtaque)
+		ePokemon_setValorAtaque(pPokemon, nuevoValorAtaque);
 	}
 }
